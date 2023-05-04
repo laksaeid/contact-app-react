@@ -1,0 +1,12 @@
+.modal-animation{
+    animation: custom .4s;
+    /*animation: ease 1s ;*/
+}
+@keyframes custom {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
